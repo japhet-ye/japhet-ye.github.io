@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/arduino.jpg
 title: peeH
-permalink: projects/micromouse
+permalink: projects/arduino
 # All dates must be YYYY-MM-DD format!
 date: 2016-07-01
 labels:
