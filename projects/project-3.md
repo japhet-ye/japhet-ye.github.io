@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/arndroid.jpg
+image: images/android.jpg
 title: peeH
 permalink: projects/android
 # All dates must be YYYY-MM-DD format!
@@ -15,7 +15,7 @@ summary: My team designed an app that will help the generalpopulation be better 
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/arduino.jpg">
+  <img class="ui image" src="../images/android.jpg">
 </div>
 
 The purpose of this project is to famliarize ourselves with the Android Studio IDE. To prove this we are tasked with creating an android application by the end of the semester. My team decided to create a disaster preparedness app called Hawaii Emergency Preparedness App (HEPA). This app provides users with a checklist of various items essential for an emergency. The app calculates the quantity needed for a certain amount of people and for a given period of time. It also had a tsunami altitude detector. This feature would read your GPS signal and determine if you are at a high enough elavation to be safe against a tsunami.
