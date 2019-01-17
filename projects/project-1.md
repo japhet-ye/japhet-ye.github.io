@@ -14,10 +14,7 @@ summary: My team developed a pH sensor that will output to a tablet over Bluetoo
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/arduino.jpg">
 </div>
 
 In my sophomore year we were tasked in creating a product using an Ardiuno microcontroller and the MITApp Inventor development kit for Android. The product could be anything and it was our responsibility to try and market it to the instructor. My group came up with peeH, a pH sensor that could be attached to a toilet or urninal in a permanent care facility so that nurses can easily check if a patient is staying hydrated.
@@ -26,19 +23,6 @@ For this project, I was the unit tester and debugger. I started by sketching a c
 
 After the initial development, I took the idea further and pitched it to Booz Allen Hamilton in their annual Pitch Night. This event helps students develop the neccessary business skills needed to sell a product or idea to more non-technical and business oriented employers (similar to the television show Shark Tank). The representatives loved the idea and helped me build some of my current presentation skills along the way. 
 
-# Here is some code that illustrates how we read values from the line sensors:
-
-#```js
-#byte ADCRead(byte ch)
-#{
-#    word value;
-#    ADC1SC1 = ch;
-#    while (ADC1SC1_COCO != 1)
-#    {   // wait until ADC conversion is completed   
-#    }
-#    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-#}
-#```
 
 
 
