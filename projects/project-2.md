@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/kali.jpg
-title: peeH
+title: Kali Linux
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2017-07-01
