@@ -77,7 +77,7 @@
       "startDate": "2016-09-03",
       "endDate": "Present",
       "gpa": "3.20",
-      "courses": ["EE205"
+      "courses": ["Object Oriented Programming","Computer Hardware Design","Discrete Mathematics","Electrical Signals and Systems"
       ]
     }
   ],
@@ -87,7 +87,7 @@
       "position": "Teaching Assistant",
       "startDate": "2019-01-15",
       "endDate": "Present",
-      "summary": "Teaching Assistant for Object Oriented Programming course",
+      "summary": "Teaching Assistant for a Object Oriented Programming course",
       "highlights": [
         "Lead labs teaching students the basic principles and foundations of Object Oriented Programming",
         "Create lab material for the students to effectivly use the lesson in the lecture effectivly and efficiently"
