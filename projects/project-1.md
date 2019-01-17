@@ -2,15 +2,15 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: peeH
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2016-07-01
 labels:
-  - Robotics
+  - Hardware Development
   - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - MITApp Inventor
+summary: My team developed a pH sensor that will output to a tablet over Bluetooth information regarding the pH of their urine.
 ---
 
 <div class="ui small rounded images">
@@ -20,25 +20,26 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+In my sophomore year we were tasked in creating a product using an Ardiuno microcontroller and the MITApp Inventor development kit for Android. The product could be anything and it was our responsibility to try and market it to the instructor. My group came up with peeH, a pH sensor that could be attached to a toilet or urninal in a permanent care facility so that nurses can easily check if a patient is staying hydrated.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For this project, I was the unit tester and debugger. I started by sketching a circuit diagram to connect the Arduino to the required sensors. From there, I tested the code that was given to me by the programmer to see if the desired signals were being made and proccessed correctly. The Arduino would proccess the data being sent from the sensor and update the display of the tablet to show the correct information. If anything was not working correctly I would skim through the code and try to help debug the program. After a couple weeks of testing, debugging, and redesigning our group finished the project. For the project we received and 'A' for the course.
 
-Here is some code that illustrates how we read values from the line sensors:
+After the initial development, I took the idea further and pitched it to Booz Allen Hamilton in their annual Pitch Night. This event helps students develop the neccessary business skills needed to sell a product or idea to more non-technical and business oriented employers (similar to the television show Shark Tank). The representatives loved the idea and helped me build some of my current presentation skills along the way. 
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+# Here is some code that illustrates how we read values from the line sensors:
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+#```js
+#byte ADCRead(byte ch)
+#{
+#    word value;
+#    ADC1SC1 = ch;
+#    while (ADC1SC1_COCO != 1)
+#    {   // wait until ADC conversion is completed   
+#    }
+#    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+#}
+#```
+
 
 
 
