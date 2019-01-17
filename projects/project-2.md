@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/kali.jpg
 title: Kali Linux
-permalink: projects/micromouse
+permalink: projects/kalilinux
 # All dates must be YYYY-MM-DD format!
 date: 2017-07-01
 labels:
