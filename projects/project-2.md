@@ -15,7 +15,7 @@ summary: My team learned about the different security protocols of WiFi and thei
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/arduino.jpg">
+  <img class="ui image" src="../images/kali.jpg">
 </div>
 
 For this project, we were mainly tasked to read through a pre-prepared book teaching the basics of wireless communications and the various protocols associated with the security of these devices. This project gave us the nessecary tools and knowledge about these kinds of protocols to help further research into ways an attacker may use exploits and protect the devices against them.
