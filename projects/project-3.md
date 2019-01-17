@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/android.jpg
-title: peeH
+title: Hawaii Emergency Preparedness APP
 permalink: projects/android
 # All dates must be YYYY-MM-DD format!
 date: 2018-07-01
