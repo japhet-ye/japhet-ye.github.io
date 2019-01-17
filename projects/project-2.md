@@ -1,25 +1,23 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/kali.jpg
+title: peeH
+permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2017-07-01
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - WiFi Penetration 
+  - Wireless Attacks
+  - Network Safety
+  - Bash Scripting
+summary: My team learned about the different security protocols of WiFi and their flaws. Then, in a controlled enviorment, we learned about the different vulnerabilities each protcol has and how attackers use them to infiltrate a network.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/arduino.jpg">
+</div>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+For this project, we were mainly tasked to read through a pre-prepared book teaching the basics of wireless communications and the various protocols associated with the security of these devices. This project gave us the nessecary tools and knowledge about these kinds of protocols to help further research into ways an attacker may use exploits and protect the devices against them.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+For this project, me and my partner took turns recreating the various types of attacks from "Evil Twin" attacks, to "man-in-the-middle." At the end of the project we were to demonstrate what we learned by creating a bash script which would all or part of the proccess. I took to automating the packet injecting process. This process involves the use of the aircrack-ng suite that is preinstalled in Kali Linux. My script allowed for a continuous stream of packets to be captured by our WiFi card for the other proccess that needed them.
