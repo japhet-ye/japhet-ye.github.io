@@ -32,17 +32,37 @@
       "name": "internet of things",
       "keywords": [
         "Arduino",
-        "TI MSP430"
+        "TI MSP430",
+        "ZigBee",
+        "802.11",
+        "RaspberryPi"
       ]
     },
     {
       "name": "Software Engineering",
       "keywords": [
+        "JavaScript",
+        "React",
+        "Meteor"
       ]
     },
     {
       "name": "Computer Hardware Design",
       "keywords": [
+        "SystemVerilog",
+        "Verilog",
+        "VHDL",
+        "Vivado",
+        "x86/64",
+        "LEGV8"
+      ]
+    },
+    {
+      "name": "Computer/Internet Security",
+      "keywords": [
+        "NMap",
+        "Key Encryption",
+        "Communication Protocols"
       ]
     }
   ],
@@ -54,6 +74,9 @@
         "C",
         "C++",
         "Java",
+        "JavaScript",
+        "MatLab",
+        "Python",
         "Assembly"
       ]
     },
@@ -62,7 +85,7 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
+        "Debian",
         "Windows",
         "Git/GitHub"
       ]
@@ -89,7 +112,8 @@
       "summary": "Teaching Assistant for a Object Oriented Programming course",
       "highlights": [
         "Lead labs teaching students the basic principles and foundations of Object Oriented Programming",
-        "Create lab material for the students to effectivly use the lesson in the lecture effectivly and efficiently"
+        "Create lab material for the students to effectivly use the lesson in the lecture effectivly and efficiently",
+        "Grading Labs and Exams on set critera"
       ]
     }
   ]
