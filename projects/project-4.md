@@ -20,6 +20,8 @@ summary: My team designed a web application for new people who had no or little 
   <img class="ui image" src="../images/logoblack.png">
 </div>
 
+
+
 The purpose of this project is to help give underclassman and people with little or no knowledge of Computer Science a way to discover the different aspects of Computer Science and the vast amount of fields that someone with a Computer Science degree can take. This is done via a big information dump for the user to read and explore the various fields and skills required to become successful. 
 
 A user can be in one of three camps: they either have no interest in Computer Science, but are curious on how Computer Science can relate to their respective field, or they are an undergraduate freshman/sophomore majoring in Computer Science and are interested in what fields are open to them, or they are an undergraduate junor/senior who is curious to finding out what field they can realistcally get into with the current skills that they have. These people are our core audience and the application is to soley provide information that caters to either of the three use cases.
@@ -30,4 +32,7 @@ For people in the second camp, from experience, many undergraduates in Computer 
 
 Lastly, for people in the thrid camp; there may come a time where you are far into a degree and realize that your resume is not on the competetive threshold that companies are willing to even look at. This group of upperclassmen are now frantically trying to upgrade their applications. As a data aggragate, these uses would then look at the list of opportunities avaliable to them from our application. This allows them to "gte their game up" and find opportunities for them to help themselves and possibly the community.
 
-This project gives the people a tool to fully understand the breadth of Computer Science and gives certain individuals the capacity to help their careers.
+This project gives the people a tool to fully understand the breadth of Computer Science and gives certain individuals the capacity to help their careers. 
+
+[Here is the source code for the project](https://github.com/discovercs/dcs)
+[And the github page](https://discovercs.github.io/)
