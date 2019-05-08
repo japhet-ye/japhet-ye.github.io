@@ -1,10 +1,9 @@
 ---
-publish: false
-layout: project
+publish: falselayout: project
 type: project
 image: images/logoblack.png
 title: Discover CS
-permalink: projects/android
+permalink: projects/DiscoverCS
 # All dates must be YYYY-MM-DD format!
 date: 2019-03-20
 labels:
