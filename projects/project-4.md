@@ -1,5 +1,5 @@
 ---
-publish: falselayout: project
+layout: project
 type: project
 image: images/logoblack.png
 title: Discover CS
@@ -18,7 +18,6 @@ summary: My team designed a web application for new people who had no or little 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/logoblack.png">
 </div>
-
 
 
 The purpose of this project is to help give underclassman and people with little or no knowledge of Computer Science a way to discover the different aspects of Computer Science and the vast amount of fields that someone with a Computer Science degree can take. This is done via a big information dump for the user to read and explore the various fields and skills required to become successful. 
