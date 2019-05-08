@@ -33,4 +33,4 @@ Lastly, for people in the thrid camp; there may come a time where you are far in
 This project gives the people a tool to fully understand the breadth of Computer Science and gives certain individuals the capacity to help their careers. 
 
 [Here is the source code for the project](https://github.com/discovercs/dcs)
-[And the github page](https://discovercs.github.io/)
+[ and the github page](https://discovercs.github.io/)
